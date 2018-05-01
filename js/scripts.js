@@ -12,6 +12,7 @@
      if(minutes < 10)
     {
         minutes = '0' + minutes;
+        
     }
     window.setTimeout(arguments.callee, 60000);
 
